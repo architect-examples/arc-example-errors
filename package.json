@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "create": "AWS_PROFILE=personal AWS_REGION=us-east-1 arc-create",
-    "deploy": "AWS_PROFILE=personal AWS_REGION=us-east-1 arc-deploy"
+    "deploy": "AWS_PROFILE=personal AWS_REGION=us-east-1 arc-deploy",
+    "dns": "AWS_PROFILE=personal AWS_REGION=us-east-1 arc-dns"
   },
   "keywords": [],
   "author": "Brian LeRoux <b@brian.io>",
